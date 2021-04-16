@@ -1,6 +1,6 @@
 ARG CUDA_VERSION=10.1
 
-FROM nvidia/cuda:${CUDA_VERSION}-base-ubuntu20.04
+FROM nvidia/cuda:${CUDA_VERSION}-base-ubuntu18.04
 
 MAINTAINER zc "https://github.com/song-zc"
 
